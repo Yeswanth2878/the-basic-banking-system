@@ -9,7 +9,7 @@ var enterSName = document.getElementById("enterSName").value;
    }
 else {
       var findUserBankAccount = enterName + "BankBalance";
-
+     
       var finalAmount = parseInt(document.getElementById(findUserBankAccount).innerHTML) + enterAmount;
       var myAccountBalance = parseInt(document.getElementById(findSenderBankAccount).innerHTML) - enterAmount;
       document.getElementById(findSenderBankAccount).innerHTML = myAccountBalance;
@@ -22,20 +22,20 @@ else {
       var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();   
       var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
       var dateTime = date+' '+time;
-
-
+      
+     
 
      // transaction history 
-
+     
      var createPTag = document.createElement("li");
      var textNode = document.createTextNode(`Amount : Rs ${enterAmount}/- , sender : ${enterSName} , Email:${enterSName}@email.com
        , recevier : ${enterName} , Email:${enterName}@email.com , Date&Time : ${dateTime} . ______________________________________________________________`);
-
+      
      createPTag.appendChild(textNode);
-
+    
      var element = document.getElementById("transaction-history-body");
      element.insertBefore(createPTag, element.firstChild);
-
-
+    
+     
   }
 }
