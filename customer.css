@@ -1,4 +1,4 @@
-{
+*{
 	margin:0;
 	padding:0;
 }
@@ -31,13 +31,13 @@ text-align:left;
 .navbar-brand{
     font-size: 1.5rem;
     color: #5f6368!important;
-
+    
 }
 
 .nav-link{
     float: right;
     color: #5f6368!important;
-
+    
 }
 
 .nav-link:hover{
