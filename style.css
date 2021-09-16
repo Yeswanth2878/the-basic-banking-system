@@ -21,7 +21,7 @@ body
 }
 .navbar
 {
-
+	
     padding: 0 !important;
 }
 navbar-brand img
@@ -64,7 +64,7 @@ text-align:left;
 	max-width: none;
 	height: auto;
 	opacity: 0.7;
-
+	
  }
  .features1 h3
 {
